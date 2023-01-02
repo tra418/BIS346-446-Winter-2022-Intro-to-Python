@@ -35,7 +35,7 @@ print('Passed')  # statement is not indented properly
 
 if grade >= 60:
     print('Passed')
-  print('Good job!)
+  print('Good job!')
         
 # if Statement Flowchart
 
