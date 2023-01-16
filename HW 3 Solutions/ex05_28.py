@@ -15,7 +15,7 @@ print(f'Min response count: {values[counts.index(min(counts))]} occurred {min(co
 print(f'Max response count: {values[counts.index(max(counts))]} occurred {max(counts)} time(s)')
 print(f'Range of response counts: {min(counts)}-{max(counts)}')
 print(f'Mean response count: {stats.mean(counts)}')
-print(f'Median response count: {stats.mean(counts)}')
+print(f'Median response count: {stats.median(counts)}')
 print(f'Mode response count: {stats.mode(counts)}')
 print(f'Variance: {stats.pvariance(counts)}')
 print(f'Standard deviation: {stats.pstdev(counts)}')
